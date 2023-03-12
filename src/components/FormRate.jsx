@@ -15,7 +15,7 @@ const FormRate = () => {
       <div className={styles.rate_thanks}>
         <img
           className={styles.thanks}
-          src="src/assets/illustration-thank-you.svg"
+          src="illustration-thank-you.svg"
           alt=""
         />
         <p className={styles.rate_select}>You selected {rate} of 5</p>
@@ -30,7 +30,7 @@ const FormRate = () => {
 
   return (
     <div className={styles.rate}>
-      <img className={styles.star} src="/src/assets/icon-star.svg" alt="" />
+      <img className={styles.star} src="icon-star.svg" alt="" />
       <h1>How did we do?</h1>
       <p>
         Please let us know how we did with your support request. All feedback is
