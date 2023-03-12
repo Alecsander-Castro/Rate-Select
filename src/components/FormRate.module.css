@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.star {
+  background-color: hsl(213, 18%, 26%);
+  border-radius: 50%;
+  padding: 1rem;
+}
+.rate {
+  display: block;
+  margin: 5rem auto;
+  width: 352px;
+  background-color: #212832;
+  border-radius: 30px;
+  padding: 1.9rem;
+}
+.rate_thanks {
+  display: block;
+  margin: 5rem auto;
+  width: 352px;
+  background-color: #212832;
+  border-radius: 30px;
+  padding: 1.9rem;
+}
+.thanks {
+  display: block;
+  margin: 1rem auto;
+}
+.rate_thanks p {
+  color: hsl(217, 12%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rate_thanks h1 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rate_select {
+  margin: 0 auto;
+  font-weight: 400;
+  color: hsl(25, 97%, 53%) !important;
+  border-radius: 20px;
+  background-color: hsl(213, 18%, 26%);
+  width: 50%;
+}
+.rate h1 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+}
+.rate p {
+  font-size: 15px;
+  line-height: 25px;
+  color: hsl(217, 12%, 63%);
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.buttons {
+  font-weight: 800;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 18%, 26%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.buttons:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+.buttons::selection,
+.buttons:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.submit {
+  font-size: 20px;
+  border: none;
+  display: block;
+  margin: 2rem auto;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 50px;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+@media (max-width: 768px) {
+  .rate {
+    width: 300px;
+  }
+  .rate_thanks {
+    width: 300px;
+  }
+}
